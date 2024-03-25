@@ -2,13 +2,17 @@
 
 ## Overview
 
-This dataset comprises data on bike sharing in London, sourced from Kaggle. It encompasses various weather-related and temporal features, including temperature, humidity, wind speed, weather code, and indicators for holidays and weekends. The primary target variable is the count of new bike shares.
+This dataset comprises data on bike sharing in London, sourced from Kaggle https://www.kaggle.com. It encompasses various weather-related and temporal features, including temperature, humidity, wind speed, weather code, and indicators for holidays and weekends. The primary target variable is the count of new bike shares.
 
 ## Analysis Process
 
-I leveraged Pandas for data exploration and transformation into the desired format. Subsequently, I exported the formatted data to an Excel file for further analysis in Tableau.
+I leveraged Pandas for data exploration and transformation into the desired format. I used Kaggle API to directly pull the dataset from the Kaggle into the Jupyter Notebook. Subsequently, I exported the formatted data to an Excel file for further analysis in Tableau.
 
 In Tableau, I conducted visualization by creating calculated fields, parameters, and actions, and formatting the workbook. Finally, I aligned all the visualizations into a dashboard for comprehensive insights.
+
+## Kaggle API
+
+Kaggle API documentation : https://www.kaggle.com/docs/api
 
 ## Usage
 
